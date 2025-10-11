@@ -1,0 +1,171 @@
+/* External stylesheet for Advanced Solutions */
+
+/* Make sure body text uses a readable font */
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+
+/* Section Color Utilities */
+:root {
+  --section-about: #f8f9fa; /* light */
+  --section-services: #ffffff; /* white */
+  --section-features: #f1f5f9; /* subtle gray */
+  --section-testimonials: #0f172a; /* dark slate for contrast */
+  --section-contact: #ffffff; /* white */
+  --section-footer: #0f172a; /* dark slate */
+}
+.bg-section-about { background-color: var(--section-about); color: #111; }
+.bg-section-services { background-color: var(--section-services); color: #111; }
+.bg-section-features { background-color: var(--section-features); color: #111; }
+.bg-section-testimonials { background-color: var(--section-testimonials); color: #fff; }
+.bg-section-contact { background-color: var(--section-contact); color: #111; }
+.bg-section-footer { background-color: var(--section-footer); color: #111; }
+
+/* Section Color Utilities Ends */
+
+
+.logo{
+  width: 84px;
+  height: 84px;
+  padding-left: 1rem;
+}
+
+.nav-hover {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #0D6EFD; /* Bootstrap primary */
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.nav-hover:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Optional: change link color on hover */
+.nav-hover:hover {
+  color: #0D6EFD;
+}
+
+
+/* Hero Section */
+
+.hero-section {
+  background: url('../img/hero.jpg') center center/cover no-repeat;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.hero-section .z-2 {
+  position: relative;
+  z-index: 2;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+}
+
+.delay-1 {
+  animation-delay: 0.5s;
+}
+
+.delay-2 {
+  animation-delay: 1s;
+}
+
+/* Button hover effect */
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #000;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Hero Section Ends */
+
+
+/* Testimonials Section */
+
+/* Simple hover transition used by feature cards */
+.transition-hover {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.transition-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+/* Testimonials card tweak for dark background */
+.bg-section-testimonials .card {
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+}
+
+/* Testimonials Section Ends */
+
+
+/* Foooter Section */
+
+.site-footer a:hover{
+  text-decoration:underline;
+
+}
+
+
+.footer-link {
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #0D6EFD; /* Bootstrap primary blue */
+}
+
+/* Footer section ends */
+
+
+
+
+

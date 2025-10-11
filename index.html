@@ -3,20 +3,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Advanced Solutions</title>
-
+    <link rel="icon" href="favicon/favicon.png" type="image/png">
     <!--Bootstrap import-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/96e67bb0d3.js" crossorigin="anonymous"></script>
     
+    <link rel="stylesheet" href="css/styles.css">
+    
+  
+    <title>Advanced Solutions</title>
 
-  <title>Advanced Solutions</title>
+
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light  shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand d-flex align-items-center" href="#">
-  <img src="IMG/logo.jpg" alt="" width="59" height="45" class="d-inline-block align-text-top me-2">
-  Advanced Solutions
+  <a class="navbar-brand d-flex align-items-center" href="#hero">
+  <img src="img/logo.png" class="logo d-inline-block align-text-top me-2">
 </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,32 +29,130 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
     <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <a class="nav-link nav-hover active" aria-current="page" href="#hero">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">About Us</a>
+  <a class="nav-link  nav-hover" href="#about">About Us</a>
     </li>
 <li class="nav-item">
-      <a class="nav-link" href="#">Services</a>
+  <a class="nav-link  nav-hover" href="#services">Services</a>
+    </li>
+    <li class="nav-item">
+  <a class="nav-link  nav-hover" href="#testimonials">Testimonials</a>
+    </li>
+    <li class="nav-item">
+  <a class="nav-link  nav-hover" href="#contact">Contact</a>
     </li>
   </ul>
-  <form class="d-flex ms-3">
+  <form class="d-flex ms-3 ms-0">
     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success" type="submit">Search</button>
+    <button class="btn btn-outline-primary" type="submit">Search</button>
   </form>
 </div>
   </div>
 </nav>
 
-<section id="hero" class="bg-primary text-white text-center py-5" style="margin-top: 70px;">
+<!-- Hero Section -->
+<section id="hero" class="hero-section d-flex align-items-center text-white text-center bg-section-hero">
+  <div class="container position-relative z-2">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h1 class="display-3 fw-bold mb-4 animate-fade-in">Welcome to Advanced Solutions</h1>
+        <p class="lead mb-4 animate-fade-in delay-1">Empowering innovation through strategic planning, cutting-edge technology, and community-driven solutions. Discover how we transform ideas into impactful realities.</p>
+        <a href="#" class="btn btn-outline-light btn-lg px-4 animate-fade-in delay-2">Get Started</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-section-about">
       <div class="container">
-        <h1 class="display-4 fw-bold">Welcome to Advanced Solutions</h1>
-        <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
-        <a href="#" class="btn btn-light btn-lg">Get Started</a>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2>About Advanced Solutions</h2>
+            <p>Advanced Solutions provides modern web and IT services that help businesses scale. We focus on usability, performance, and security to deliver reliable solutions tailored to your needs.</p>
+            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, porro accusantium. Ipsam, aliquid aut illum, atque tempore nostrum totam facere ullam pariatur, in explicabo deserunt placeat non eum a qui.</p>
+            <a href="#contact" class="btn btn-primary mb-4">Contact Us</a>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="img/about.jpg" alt="About illustration" class="img-fluid rounded shadow-sm" onerror="this.style.display='none'">
+          </div>
+        </div>
       </div>
     </section>
 
- <section id="features" class="py-5 bg-light">
+  <!-- Services Section -->
+  <section id="services" class="py-5 bg-section-services">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h3>Our Services</h3>
+          <p class="text-muted">A selection of services we offer to our clients.</p>
+        </div>
+
+        <!--First row-->
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Service One</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sit deserunt? Repellat tenetur libero laborum? Nisi consequuntur dicta illo accusamus obcaecati beatae, nostrum, tempora vel repellendus, libero distinctio nobis aut.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Service Two</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iure veniam ea nobis sapiente voluptas! Totam sequi veniam officiis sed officia cumque ab ex inventore. Omnis enim earum est eaque.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Service Three</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero incidunt consequuntur facere nulla ratione ex dolorem illo qui commodi quam, saepe doloremque est, hic, laudantium fugiat sunt beatae quod.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Second row-->
+        <div class="row g-4 pt-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Service Four</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sit deserunt? Repellat tenetur libero laborum? Nisi consequuntur dicta illo accusamus obcaecati beatae, nostrum, tempora vel repellendus, libero distinctio nobis aut.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Service Five</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iure veniam ea nobis sapiente voluptas! Totam sequi veniam officiis sed officia cumque ab ex inventore. Omnis enim earum est eaque.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Service Six</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero incidunt consequuntur facere nulla ratione ex dolorem illo qui commodi quam, saepe doloremque est, hic, laudantium fugiat sunt beatae quod.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  <section id="features" class="py-5 bg-section-features">
   <div class="container">
     <div class="row g-4">
       <div class="col-lg-4 col-sm-6 col-12 text-center transition-hover">
@@ -120,11 +222,161 @@
   </div>
 </section>
 
-</body>
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-5 bg-section-testimonials">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h3>What our clients are saying</h3>
+          <p class="text-muted">Real feedback from real customers who've partnered with Advanced Solutions.</p>
+        </div>
+
+        <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                      <p class="mb-3">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis assumenda distinctio aliquid facere repudiandae, vel rerum aliquam, nisi quidem libero maxime inventore perspiciatis ullam illum esse doloremque porro aperiam laudantium."</p>
+                      <h6 class="mb-0">— Jenny Doe, CTO at Finovate</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                      <p class="mb-3">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos expedita consectetur nulla provident quis cum non, accusamus tempora dolorum iure id est iusto magnam nisi laudantium corrupti? Necessitatibus, dicta rerum!"</p>
+                      <h6 class="mb-0">— John Doe, Product Lead at HealthCo</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                      <p class="mb-3">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus delectus blanditiis tempore vero quos possimus cum nulla architecto maxime ipsam. Natus doloribus assumenda tenetur reiciendis quas dolorum iusto numquam consequuntur?"</p>
+                      <h6 class="mb-0">— Jane Doe, CEO at RetailWorks</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-section-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Contact Us</h3>
+            <p class="text-muted">Get in touch to discuss your next project.</p>
+            <ul class="list-unstyled">
+              <li><strong>Email:</strong> <a href="mailto:info@advancedsolutions.com">info@advancedsolutions.com</a></li>
+              <li><strong>Phone:</strong> (868) 123-4567</li>
+            </ul>
+            <i class="fa-brands fa-linkedin fs-1"></i>
+            <i class="fa-brands fa-square-facebook fs-1"></i>
+            <i class="fa-brands fa-square-youtube fs-1"></i>
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input class="form-control" type="text" placeholder="Your name">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input class="form-control" type="email" placeholder="you@company.com">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4" placeholder="Tell us about your project"></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Footer -->
+<footer class="site-footer mt-4 bg-section-footer text-white">
+  <div class="container py-5">
+    <div class="row gy-4">
+      <div class="col-md-4">
+        <h5 class="mb-3">Advanced Solutions</h5>
+        <p class="small mb-0">Helping businesses build modern, reliable web and cloud solutions. Follow us for updates or visit our contact page.</p>
+      </div>
+
+      <div class="col-md-3">
+        <h6 class="mb-3">Quick Links</h6>
+        <ul class="list-unstyled small">
+          <li><a href="#services" class="text-white">Services</a></li>
+          <li><a href="#about" class="text-white">About</a></li>
+          <li><a href="#testimonials" class="text-white">Testimonials</a></li>
+          <li><a href="#contact" class="text-white">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5">
+        <h6 class="mb-3">Stay in touch</h6>
+        <p class="small">Subscribe to our newsletter for updates:</p>
+        <form class="row g-2">
+          <div class="col-8">
+            <input type="email" class="form-control form-control-sm" placeholder="Your email" required>
+          </div>
+          <div class="col-4">
+            <button type="submit" class="btn btn-primary btn-sm w-100">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <hr class="border-white-25 my-4">
+
+    <div class="row">
+      <div class="col-md-6">
+        <p class="mb-0 small">&copy; 2025 Advanced Solutions — All rights reserved</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <a href="#" class="me-3 text-white">Privacy</a>
+        <a href="#" class="me-3 text-white">Terms</a>
+        <a href="#contact" class="text-white">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 <!--Javascript import-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="js/testimonials.js"></script>
+
+
+</body>
+
+
+
 
 
 </html>
