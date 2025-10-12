@@ -62,7 +62,7 @@ a{
   transform-origin: left;
 }
 
-/* Optional: change link color on hover */
+
 .nav-hover:hover {
   color: #0D6EFD;
 }
