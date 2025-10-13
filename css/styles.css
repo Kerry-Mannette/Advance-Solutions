@@ -148,6 +148,13 @@ a{
 /* Testimonials Section Ends */
 
 
+/*Custome Links*/
+.custom-links i:hover{
+  color: var(--bs-primary);
+  cursor: pointer;
+}
+
+
 /* Foooter Section */
 
 .site-footer a:hover{
