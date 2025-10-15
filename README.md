@@ -1,7 +1,7 @@
 # Advance-Solutions
 This Application was developed using HTML, CSS, JavaScript, and the Bootstrap framework.
 
-<img width="1755" height="3986" alt="image" src="https://github.com/user-attachments/assets/b217306d-1fcb-4af2-bd37-88ebfcaf2119" />
+<img width="1755" height="3939" alt="image" src="https://github.com/user-attachments/assets/240e1cd0-3659-42a5-bdff-6c19fc4efc4a" />
 
 Desktop
 <img width="1097" height="716" alt="image" src="https://github.com/user-attachments/assets/79d0f409-6583-468f-abdd-8591aa53c05d" />
