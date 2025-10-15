@@ -1,23 +1,20 @@
-<!Doctype html lang="en">
+<!Doctype html>
+<html lang="en-US">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Advanced Solutions</title>
-    <link rel="icon" href="favicon/favicon.png" type="image/png" alt="Advanced Solutions Logo, that cotains the company's name in a lightbulb">
+    <link rel="icon" href="favicon/favicon.png" type="image/png">
     <!--Bootstrap import-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/96e67bb0d3.js" crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    
   
-    <title>Advanced Solutions</title>
-
-
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top bg-light" aria-label="Main Navigation">
   <div class="container-fluid">
   <a class="navbar-brand d-flex align-items-center" href="#hero">
   <img src="img/logo.png" class="logo d-inline-block align-text-top me-2" alt="Advanced Solutions Logo, that cotains the company's name in a lightbulb">
@@ -29,31 +26,31 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
     <li class="nav-item">
-  <a class="nav-link nav-hover active" aria-current="page" href="#hero">Home</a>
+  <a class="nav-link nav-hover active"  aria-current="page" href="#hero">Home</a>
     </li>
     <li class="nav-item">
-  <a class="nav-link  nav-hover" href="#about">About Us</a>
+  <a class="nav-link  nav-hover"  href="#about">About Us</a>
     </li>
 <li class="nav-item">
-  <a class="nav-link  nav-hover" href="#services">Services</a>
+  <a class="nav-link  nav-hover"  href="#services">Services</a>
     </li>
     <li class="nav-item">
-  <a class="nav-link  nav-hover" href="#testimonials">Testimonials</a>
+  <a class="nav-link  nav-hover"  href="#testimonials">Testimonials</a>
     </li>
     <li class="nav-item">
-  <a class="nav-link  nav-hover" href="#contact">Contact</a>
+  <a class="nav-link  nav-hover"  href="#contact">Contact</a>
     </li>
   </ul>
-  <form class="d-flex ms-3 ms-0">
+  <form class="d-flex ms-3 ms-0" aria-label="Advanced Solution Search Form">
   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-  <button class="btn btn-outline-primary" type="submit">Search</button>
+  <button aria-label="Search button"  class="btn btn-outline-primary" type="submit">Search</button>
   </form>
 </div>
   </div>
 </nav>
 
 <!-- Hero Section -->
-<section id="hero" class="hero-section d-flex align-items-center text-white text-center bg-section-hero">
+<section id="hero" class="hero-section d-flex align-items-center text-white text-center bg-section-hero" aria-label="Hero section">
   <div class="container position-relative z-2">
     <div class="row justify-content-center">
       <div class="col-lg-8">
@@ -68,7 +65,7 @@
 
 
   <!-- About Section -->
-  <section id="about" class="py-5 bg-section-about">
+  <section id="about" class="py-5 bg-section-about" aria-label="About Advanced Solutions">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
@@ -85,7 +82,7 @@
     </section>
 
   <!-- Services Section -->
-  <section id="services" class="py-5 bg-section-services">
+  <section id="services" class="py-5 bg-section-services" aria-label="Services">
       <div class="container">
         <div class="text-center mb-4">
           <h3>Our Services</h3>
@@ -151,8 +148,8 @@
     </section>
 
 
-
-  <section id="features" class="py-5 bg-section-features">
+ <!--Features Section-->
+  <section id="features" class="py-5 bg-section-features" aria-label="Features">
   <div class="container">
     <div class="row g-4">
       <div class="col-lg-4 col-sm-6 col-12 text-center transition-hover">
@@ -209,7 +206,7 @@
 </section>
 
   <!-- Testimonials Section -->
-  <section id="testimonials" class="py-5 bg-section-testimonials">
+  <section id="testimonials" class="py-5 bg-section-testimonials" aria-label=" Client Testimonials">
       <div class="container">
         <div class="text-center mb-4">
           <h3>What our clients are saying</h3>
@@ -270,7 +267,7 @@
     </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-5 bg-section-contact">
+  <section id="contact" class="py-5 bg-section-contact" aria-label="Contact Section">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -309,7 +306,7 @@
     </section>
 
 <!-- Footer -->
-<footer class="site-footer mt-4 bg-section-footer text-white">
+<footer class="site-footer mt-4 bg-section-footer text-white" role="contentinfo" aria-label="Footer Information">
   <div class="container py-5">
     <div class="row gy-4">
       <div class="col-md-4">
