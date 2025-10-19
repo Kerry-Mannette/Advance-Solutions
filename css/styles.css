@@ -131,7 +131,7 @@ a{
 
 /* Testimonials Section */
 
-/* Simple hover transition used by feature cards */
+/* Hover transition used by feature cards */
 .transition-hover {
   transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
