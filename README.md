@@ -3,7 +3,6 @@ This Application was developed using HTML, CSS, JavaScript, and the Bootstrap fr
 
 <img width="1755" height="3967" alt="image" src="https://github.com/user-attachments/assets/97441a94-4a30-4ea1-8895-8385935f02ce" />
 
-
 Desktop
 <img width="1097" height="716" alt="image" src="https://github.com/user-attachments/assets/79d0f409-6583-468f-abdd-8591aa53c05d" />
 
