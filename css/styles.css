@@ -70,6 +70,12 @@ a{
   color: var(--bs-primary);
 }
 
+
+.active {
+  color: var(--bs-primary);
+  font-weight: 600;
+}
+
 /* Hero Section */
 
 .hero-section {
