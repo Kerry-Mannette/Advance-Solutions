@@ -5,6 +5,7 @@ navbarLinks.forEach(link => {
     navbarLinks.forEach(item => item.classList.remove('active'));
     this.classList.add('active');
   });
+  
 });
 
 
